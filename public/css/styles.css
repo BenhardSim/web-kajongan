@@ -168,3 +168,14 @@
 .container-fasilitas{
     height: 750px;
 }
+
+#login-page{
+    background-color: #FAF3F0;
+}
+
+.form-cont{
+    margin: 100px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+}

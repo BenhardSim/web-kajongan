@@ -234,10 +234,10 @@
                     <div class="row container">
                         <div class="col-lg-12 perangkat-item">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/kepala-desa.png" alt="" width="120px"
+                                <img src="./assets/perangkat/{{ $photo_kades }}" alt="" width="110px" height="110px"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
-                                    <h4>EKO TRIWARSO</h4>
+                                    <h4>{{ $kades_name }}</h4>
                                     <p>Kepala Desa</p>
                                 </div>
                             </div>
