@@ -245,10 +245,10 @@
 
                         <div class="col-lg-3 perangkat-item">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/sekre-desa.png" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_sekre }}" alt="" width="100px" height="100px"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
-                                    <h6>M.IKMAL HUDA S.Pd
+                                    <h6>{{ $sekre_name }}
                                     </h6>
                                     <p>Sekretaris Desa</p>
                                 </div>
@@ -256,50 +256,50 @@
                         </div>
                         <div class="col-lg-3 perangkat-item">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/Kaur-desa.png" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kaurUang }}" alt="" width="100px" height="100px"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
-                                    <h6>ANDI HARYANTO .SE </h6>
+                                    <h6>{{ $kaurUang_name }}</h6>
                                     <p>Kaur Keuangan</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 perangkat-item">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/kaur-umum.png" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kaurUmum }}" alt="" width="100px" height="100px"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
-                                    <h6>YOPIE HARTOYO</h6>
+                                    <h6>{{ $kaurUmum_name }}</h6>
                                     <p>Kaur Umum & Perencanaan</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 perangkat-item">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/kasi-pemerintahan.png" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kasiPemerintah }}" alt="" width="100px" height="100px"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
-                                    <h6>ARUM PURNAWATI A. Md</h6>
+                                    <h6>{{ $kasiPemerintah_name }}</h6>
                                     <p>Kasi Pemerintahan</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 perangkat-item">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/kasi-kesejahteraaan.png" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kasiSejahtera }}" alt="" width="100px" height="100px"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
-                                    <h6>AHMAD ARIFIN</h6>
+                                    <h6>{{ $kasiSejahtera_name }}</h6>
                                     <p>Kasi Kesejahteraan & Pelayanan</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 perangkat-item">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/kadus-kemloko.png" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kadusKemloko }}" alt="" width="100px" height="100px"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
-                                    <h6>SUCARI REJEKI
+                                    <h6>{{ $kadusKemloko_name }}
                                     </h6>
                                     <p>Kadus Kemloko</p>
                                 </div>
@@ -307,20 +307,20 @@
                         </div>
                         <div class="col-lg-3 perangkat-item">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/Kadus-krajan.png" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kadusKrajen }}" alt="" width="100px" height="100px"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
-                                    <h6>SISWOYO</h6>
+                                    <h6>{{ $kadusKrajen_name }}</h6>
                                     <p>Kadus Krajan</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-3 perangkat-item">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/Kadus-gembongan.png" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kadusGembongan }}" alt="" width="100px" height="100px"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
-                                    <h6>PUJIYANTI</h6>
+                                    <h6>{{ $kadusGembongan_name }}</h6>
                                     <p>Kadus Gembongan</p>
                                 </div>
                             </div>

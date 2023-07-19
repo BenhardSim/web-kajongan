@@ -64,7 +64,7 @@
                         @csrf
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Nama Sekretaris</label>
-                            <input name="name type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">Masukkan Nama Sekretaris Desa</div>
                         </div>
                         <div class="mb-3">
@@ -77,15 +77,17 @@
 
                 <div class="col-lg-5 perangkat-data-cont shadow">
                     <h2>Kaur Keuangan</h2>
-                    <form>
+                    <form action="/perangkat-data/kaurUang" method="POST" enctype="multipart/form-data">
+                        @include('sweetalert::alert')
+                        @csrf
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Kaur Keuangan</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">Masukkan Nama Kaur Keuangan</div>
                         </div>
                         <div class="mb-3">
                             <label for="formFile" class="form-label">Masukkan Foto</label>
-                            <input class="form-control" type="file" id="formFile">
+                            <input name="photo_url" class="form-control" type="file" id="formFile">
                         </div>
                         <button style="width: 100%" type="submit" class="btn btn-primary">Submit</button>
                     </form>      
@@ -93,15 +95,17 @@
 
                 <div class="col-lg-6 perangkat-data-cont shadow">
                     <h2>Kaur Umum & Perencanaan</h2>
-                    <form>
+                    <form action="/perangkat-data/kaurUmum" method="POST" enctype="multipart/form-data">
+                        @include('sweetalert::alert')
+                        @csrf
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Nama Kaur Umum & Perencanaan</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">Masukkan Nama Kaur Umum & Perencanaan</div>
                         </div>
                         <div class="mb-3">
                             <label for="formFile" class="form-label">Masukkan Foto</label>
-                            <input class="form-control" type="file" id="formFile">
+                            <input name="photo_url" class="form-control" type="file" id="formFile">
                         </div>
                         <button style="width: 100%" type="submit" class="btn btn-primary">Submit</button>
                     </form>      
@@ -109,15 +113,17 @@
 
                 <div class="col-lg-5 perangkat-data-cont shadow">
                     <h2>Kasi Pemerintahan</h2>
-                    <form>
+                    <form action="/perangkat-data/kasiPemerintah" method="POST" enctype="multipart/form-data">
+                        @include('sweetalert::alert')
+                        @csrf
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Nama Kasi Pemerintahan</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">Masukkan Nama Kasi Pemerintahan</div>
                         </div>
                         <div class="mb-3">
                             <label for="formFile" class="form-label">Masukkan Foto</label>
-                            <input class="form-control" type="file" id="formFile">
+                            <input name="photo_url" class="form-control" type="file" id="formFile">
                         </div>
                         <button style="width: 100%" type="submit" class="btn btn-primary">Submit</button>
                     </form>      
@@ -125,15 +131,17 @@
 
                 <div class="col-lg-6 perangkat-data-cont shadow">
                     <h2>Kasi Kesejahteraan & Pelayanan</h2>
-                    <form>
+                    <form action="/perangkat-data/kasiSejahtera" method="POST" enctype="multipart/form-data">
+                        @include('sweetalert::alert')
+                        @csrf
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Nama Kasi Kesejahteraan & Pelayanan</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">Masukkan Nama Kasi Kesejahteraan & Pelayanan</div>
                         </div>
                         <div class="mb-3">
                             <label for="formFile" class="form-label">Masukkan Foto</label>
-                            <input class="form-control" type="file" id="formFile">
+                            <input name="photo_url" class="form-control" type="file" id="formFile">
                         </div>
                         <button style="width: 100%" type="submit" class="btn btn-primary">Submit</button>
                     </form>      
@@ -141,15 +149,17 @@
 
                 <div class="col-lg-5 perangkat-data-cont shadow">
                     <h2>Kadus Kemloko</h2>
-                    <form>
+                    <form action="/perangkat-data/kadusKemloko" method="POST" enctype="multipart/form-data">
+                        @include('sweetalert::alert')
+                        @csrf
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Nama Kadus Kemloko</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">Masukkan Nama Kadus Kemloko</div>
                         </div>
                         <div class="mb-3">
                             <label for="formFile" class="form-label">Masukkan Foto</label>
-                            <input class="form-control" type="file" id="formFile">
+                            <input name="photo_url" class="form-control" type="file" id="formFile">
                         </div>
                         <button style="width: 100%" type="submit" class="btn btn-primary">Submit</button>
                     </form>      
@@ -157,15 +167,17 @@
 
                 <div class="col-lg-6 perangkat-data-cont shadow">
                     <h2>Kadus Krajan</h2>
-                    <form>
+                    <form action="/perangkat-data/kadusKrajen" method="POST" enctype="multipart/form-data">
+                        @include('sweetalert::alert')
+                        @csrf
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Nama Kadus Krajan</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">Masukkan Nama Kadus Krajan</div>
                         </div>
                         <div class="mb-3">
                             <label for="formFile" class="form-label">Masukkan Foto</label>
-                            <input class="form-control" type="file" id="formFile">
+                            <input name="photo_url" class="form-control" type="file" id="formFile">
                         </div>
                         <button style="width: 100%" type="submit" class="btn btn-primary">Submit</button>
                     </form>      
@@ -173,15 +185,17 @@
 
                 <div class="col-lg-5 perangkat-data-cont shadow">
                     <h2>Kadus Gembongan</h2>
-                    <form>
+                    <form action="/perangkat-data/kadusGembongan" method="POST" enctype="multipart/form-data">
+                        @include('sweetalert::alert')
+                        @csrf
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Nama Kadus Gembongan</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <input name="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">Masukkan Nama Kadus Gembongan</div>
                         </div>
                         <div class="mb-3">
                             <label for="formFile" class="form-label">Masukkan Foto</label>
-                            <input class="form-control" type="file" id="formFile">
+                            <input name="photo_url" class="form-control" type="file" id="formFile">
                         </div>
                         <button style="width: 100%" type="submit" class="btn btn-primary">Submit</button>
                     </form>      
