@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ArtikelController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardController;
@@ -24,3 +25,4 @@ Route::get('/admin', [LoginController::class, 'index']);
 Route::post('/login', [LoginController::class, 'auth']);
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 Route::post('/perangkat-data/{pangkat}', [PerangkatController::class, 'postPerangkat'])->middleware('auth');
+Route::get('/artikel', [ArtikelController::class, 'index']);

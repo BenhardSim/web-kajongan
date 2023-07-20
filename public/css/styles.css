@@ -179,3 +179,27 @@
     padding: 30px;
     border-radius: 20px;
 }
+
+.footer-cont{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+
+.artikel-cont{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 600px;
+}
+
+.artikel-item{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:0px;
+    margin: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20px;
+}

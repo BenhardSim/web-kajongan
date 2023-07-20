@@ -64,6 +64,11 @@
                                 <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Struktur</a>
                             </b>
                         </li>
+                        <li class="nav-item">
+                            <b>
+                                <a class="nav-link" href="/artikel" aria-current="page" aria-disabled="true">Artikel</a>
+                            </b>
+                        </li>
                     </ul>
                 </div>
         </nav>
@@ -74,7 +79,7 @@
                 <h3>Kajen, Pekalongan</h3>
                 <p>Pesona Alam Tanpa Batas: Keberagaman Desa yang Mempesona</p>
             </div>
-            <button type="button" class="btn">Telusuri</button>
+            <a href="/artikel"><button class="btn">Telusuri</button></a>
         </div>
 
     </section>
@@ -359,9 +364,7 @@
                         <img src="./assets/lapangan.png" class="card-img-top">
                         <div class="card-body">
                             <h3>Lapangan</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the
-                                bulk of the card's content.</p>
+                            <p class="card-text">Lapangan yang biasa digunakkan untuk pertandingan sepak bola</p>
                         </div>
                     </div>
                 </div>
@@ -372,9 +375,7 @@
                         <img src="./assets/masjid.png" class="card-img-top">
                         <div class="card-body">
                             <h3>Masjid</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the
-                                bulk of the card's content.</p>
+                            <p class="card-text">Masjid Jami Baitusalam, merupakan Masjid terbesar di desa kajongan.</p>
                         </div>
                     </div>
                 </div>
@@ -384,21 +385,17 @@
                         <img src="./assets/sungai2.png" class="card-img-top">
                         <div class="card-body">
                             <h3>Sungai</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the
-                                bulk of the card's content.</p>
+                            <p class="card-text">Sungai kajongan merupakan salah satu sumber mata air desa kajongan</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-3 card-container">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
-                        <img src="./assets/sungai2.png" class="card-img-top">
+                        <img src="./assets/SD-kajongan.png" class="card-img-top">
                         <div class="card-body">
-                            <h3>Sungai</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the
-                                bulk of the card's content.</p>
+                            <h3>Sekolah Dasar</h3>
+                            <p class="card-text">Sekolah Dasar Kajongan, merupakan satu-satunya SD di desa kajongan</p>
                         </div>
                     </div>
                 </div>
@@ -407,10 +404,8 @@
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/lapangan.png" class="card-img-top">
                         <div class="card-body">
-                            <h3>Lapangan</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the
-                                bulk of the card's content.</p>
+                            <h3>Tepeq</h3>
+                            <p class="card-text">Tepeq desa kajongan merupakan tempat dilakukannya pengajian.</p>
                         </div>
                     </div>
                 </div>
@@ -420,7 +415,7 @@
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/masjid.png" class="card-img-top">
                         <div class="card-body">
-                            <h3>Masjid</h3>
+                            <h3>Petilasan</h3>
                             <p class="card-text">Some quick example text to build on the card title and make up
                                 the
                                 bulk of the card's content.</p>
@@ -432,7 +427,7 @@
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/sungai2.png" class="card-img-top">
                         <div class="card-body">
-                            <h3>Sungai</h3>
+                            <h3>Balai Desa</h3>
                             <p class="card-text">Some quick example text to build on the card title and make up
                                 the
                                 bulk of the card's content.</p>
@@ -444,7 +439,7 @@
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/sungai2.png" class="card-img-top">
                         <div class="card-body">
-                            <h3>Sungai</h3>
+                            <h3>Pondok Pesantren</h3>
                             <p class="card-text">Some quick example text to build on the card title and make up
                                 the
                                 bulk of the card's content.</p>
@@ -454,8 +449,23 @@
 
             </div>
         </div>
+        <div class="footer-cont">
+            <div class="row" style="margin: 0%">
+                <div class="col-lg-4" style="padding: 0%; padding-left:60px;display:flex;flex-direction:column;align-items:center">
+                    Desa Kajongan ,Kajen Pekalongan
+                    <img src="./assets/pekalongan.png" style="width: 40px;" />
+                </div>
+                <div class="col-lg-8" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
+                    <h6>Ikuti Kegiatan selengkapnya di sosial media kami.</h6>
+                    
+                </div>
+                <div class="col-lg-12" style="text-align: center; padding: 0%;">
+                    Desa Kajongan © 2023-2024
+                </div>
+            </div>
+        </div>
+        
     </section>
-
 
 
 </body>
