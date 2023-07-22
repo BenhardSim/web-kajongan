@@ -86,12 +86,12 @@
             <div class="col-lg-5 artikel-item" style="padding: 0%">
                 <div style="width: 40rem;height:220px">
                     <div style="display: flex;flex-direction:row">
-                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 20px">
+                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
                         <div class="card-body">
                           <h4 class="card-title">Card title</h4>
                           <h5>Sub Title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#">Go somewhere</a>
+                          <a href="/artikel/1">Lanjut Baca..</a>
                         </div>
                     </div>
                 </div>
@@ -99,12 +99,12 @@
             <div class="col-lg-5 artikel-item" style="padding: 0%">
                 <div style="width: 40rem;height:220px">
                     <div style="display: flex;flex-direction:row">
-                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 20px">
+                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
                         <div class="card-body">
                           <h4 class="card-title">Card title</h4>
                           <h5>Sub Title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#">Go somewhere</a>
+                          <a href="#">Lanjut Baca..</a>
                         </div>
                     </div>
                 </div>
@@ -112,12 +112,12 @@
             <div class="col-lg-5 artikel-item" style="padding: 0%">
                 <div style="width: 40rem;height:220px">
                     <div style="display: flex;flex-direction:row">
-                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 20px">
+                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
                         <div class="card-body">
                           <h4 class="card-title">Card title</h4>
                           <h5>Sub Title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#">Go somewhere</a>
+                          <a href="#">Lanjut Baca..</a>
                         </div>
                     </div>
                 </div>
@@ -125,12 +125,12 @@
             <div class="col-lg-5 artikel-item" style="padding: 0%">
                 <div style="width: 40rem;height:220px">
                     <div style="display: flex;flex-direction:row">
-                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 20px">
+                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
                         <div class="card-body">
                           <h4 class="card-title">Card title</h4>
                           <h5>Sub Title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#">Go somewhere</a>
+                          <a href="#">Lanjut Baca..</a>
                         </div>
                     </div>
                 </div>

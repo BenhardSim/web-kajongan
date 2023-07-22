@@ -9,4 +9,10 @@ class ArtikelController extends Controller
     public function index(){
         return view("artikel");
     }
+
+    public function readArticle($id){
+        return view("read",[
+            "id" => $id
+        ]);
+    }
 }

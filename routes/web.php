@@ -26,3 +26,4 @@ Route::post('/login', [LoginController::class, 'auth']);
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 Route::post('/perangkat-data/{pangkat}', [PerangkatController::class, 'postPerangkat'])->middleware('auth');
 Route::get('/artikel', [ArtikelController::class, 'index']);
+Route::get('/artikel/{id}', [ArtikelController::class, 'readArticle']);
