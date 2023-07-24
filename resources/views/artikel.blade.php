@@ -82,8 +82,38 @@
 
     </section>
     <div class="artikel-cont">
+
         <div class="row justify-content-center">
-            <div class="col-lg-5 artikel-item" style="padding: 0%">
+
+            @if(count($all_article) > 0)
+            @foreach($all_article as $article)
+
+                <div class="col-lg-5 artikel-item" style="padding: 0%">
+                    <div style="width: 40rem;height:240px">
+                        <div style="display: flex;flex-direction:row" class="row">
+                            <div class="col-lg-5">  
+                                <img height="240px" width="110px" src="./assets/artikelImage/artikel-img-{{ $article['id'] }}.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
+                            </div>
+                            <div class="card-body col-lg-7">
+                                <h4 class="card-title">{{ $article["title"] }}</h4>
+                                <p>By : {{ $article["author"] }}</p>
+                                <p id="content-prev" class="card-text">{{ 
+
+                                substr(strip_tags(str_replace("\\","",str_ireplace("div","p",str_ireplace('"',' ', $article["article"])) )),0,80) 
+                                
+                                }}</p>
+                                <a href="/artikel/{{ $article['id'] }}">Lanjut Baca..</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            @endforeach
+            @else
+                <p>Tidak Artikel</p>
+            @endif
+
+            {{-- <div class="col-lg-5 artikel-item" style="padding: 0%">
                 <div style="width: 40rem;height:220px">
                     <div style="display: flex;flex-direction:row">
                         <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
@@ -91,7 +121,7 @@
                           <h4 class="card-title">Card title</h4>
                           <h5>Sub Title</h5>
                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="/artikel/1">Lanjut Baca..</a>
+                          <a href="#">Lanjut Baca..</a>
                         </div>
                     </div>
                 </div>
@@ -121,21 +151,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-5 artikel-item" style="padding: 0%">
-                <div style="width: 40rem;height:220px">
-                    <div style="display: flex;flex-direction:row">
-                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <h5>Sub Title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#">Lanjut Baca..</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </div> --}}
         </div>
+
     </div>    
     
     
