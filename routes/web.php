@@ -22,7 +22,7 @@ use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 Route::get('/', [MainController::class, 'index']);
 
-Route::get('/admin', [LoginController::class, 'index']);
+Route::get('/admin', [LoginController::class, 'index'])->name("admin");
 Route::post('/login', [LoginController::class, 'auth']);
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('auth');
 Route::post('/perangkat-data/{pangkat}', [PerangkatController::class, 'postPerangkat'])->middleware('auth');
@@ -30,3 +30,5 @@ Route::get('/artikel', [ArtikelController::class, 'index']);
 Route::get('/artikel/{id}', [ArtikelController::class, 'readArticle']);
 Route::get("/addartikel",[ArtikelSettings::class, 'addArtikel'])->middleware('auth');
 Route::post("/addartikels",[ArtikelSettings::class, 'postArticle'])->middleware('auth');
+Route::get("/olahartikel",[ArtikelSettings::class, 'olahArtikel'])->middleware('auth');
+Route::post("/logout",[LoginController::class, 'logout'])->middleware('auth');

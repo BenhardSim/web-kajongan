@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\artikel;
+use Nette\Utils\DateTime;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -40,5 +41,12 @@ class ArtikelSettings extends Controller
 
         alert()->success('Berhasil Ditambahkakn','Artikel Berhasil ditambahkan');
         return back();
+    }
+
+    public function olahArtikel(){
+        $allData = artikel::paginate(10);
+        return view("olahArtikel",[
+            "allData" => $allData
+        ]);
     }
 }

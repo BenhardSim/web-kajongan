@@ -51,17 +51,17 @@
                         </li>
                         <li class="nav-item">
                             <b>
-                                <a class="nav-link" href="#">Tentang</a>
+                                <a class="nav-link" href="#tentang">Tentang</a>
                             </b>
                         </li>
                         <li class="nav-item">
                             <b>
-                                <a class="nav-link" href="#">Fasilitas</a>
+                                <a class="nav-link" href="#fasilitas">Fasilitas</a>
                             </b>
                         </li>
                         <li class="nav-item">
                             <b>
-                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Struktur</a>
+                                <a class="nav-link" href="#struktur" tabindex="-1" aria-disabled="true">Struktur</a>
                             </b>
                         </li>
                         <li class="nav-item">
@@ -84,128 +84,128 @@
 
     </section>
 
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
+    <div class="" id="tentang">
+        <div class="col-lg-12 about-1">
+            <h1>- Tentang Kajongan -</h1>
         </div>
-
-        <div class="carousel-inner">
-
-            <div class="carousel-item active about-page-item">
-                <div class="col-lg-12 about-1">
-                    <h1>- Tentang Kajongan -</h1>
+        <div class="container-content">
+            <div class="row">
+                <div class="col-lg-4 card-container" data-bs-toggle="modal" data-bs-target="#profileModal">
+                    <div class="card shadow bg-body rounded-8" style="width: 23rem;">
+                        <img src="./assets/desa-top.png" class="card-img-top">
+                        <div class="card-body">
+                            <h2>Profile</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="container-content">
-                    <div class="row">
-                        <div class="col-lg-4 card-container">
-                            <div class="card shadow bg-body rounded-8" style="width: 23rem;">
+ 
+                <!-- Modal -->
+                <div class="modal fade bd-example-modal-xl" id="profileModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Profile Desa Kajongan</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="col-lg-5">
                                 <img src="./assets/desa-top.png" class="card-img-top">
-                                <div class="card-body">
-                                    <h2>Profile</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                </div>
                             </div>
+                            <div class="col-lg-7">
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.
+                                    Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div> 
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 card-container" data-bs-toggle="modal" data-bs-target="#UMKMModal">
+                    <div class="card shadow bg-body rounded-8" style="width: 23rem;">
+                        <img src="./assets/koveksi.png" class="card-img-top">
+                        <div class="card-body"> 
+                            <h2>UMKM</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the
+                                bulk of the card's content.</p>
                         </div>
+                    </div>
+                </div>
 
-
-                        <div class="col-lg-4 card-container">
-                            <div class="card shadow bg-body rounded-8" style="width: 23rem;">
+                <!-- Modal -->
+                <div class="modal fade bd-example-modal-xl" id="UMKMModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">UMKM Desa Kajongan</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="col-lg-5">
                                 <img src="./assets/koveksi.png" class="card-img-top">
-                                <div class="card-body">
-                                    <h2>UMKM</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                </div>
                             </div>
-                        </div>
+                            <div class="col-lg-7">
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.
+                                    Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div> 
+                    </div>
+                    </div>
+                </div>
 
-                        <div class="col-lg-4 card-container">
-                            <div class="card shadow bg-body rounded-8" style="width: 23rem;">
+                <div class="col-lg-4 card-container" data-bs-toggle="modal" data-bs-target="#LocationModal">
+                    <div class="card shadow bg-body rounded-8" style="width: 23rem;">
+                        <img src="./assets/peta-kajongan.png" class="card-img-top">
+                        <div class="card-body">
+                            <h2>Lokasi</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the
+                                bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade bd-example-modal-xl" id="LocationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Lokasi Desa Kajongan</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body row">
+                            <div class="col-lg-5">
                                 <img src="./assets/peta-kajongan.png" class="card-img-top">
-                                <div class="card-body">
-                                    <h2>Lokasi</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                </div>
                             </div>
-                        </div>
-
+                            <div class="col-lg-7">
+                                <p class="card-text">Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.
+                                    Some quick example text to build on the card title and make up
+                                    the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div> 
+                    </div>
                     </div>
                 </div>
+
             </div>
-
-            <div class="carousel-item about-page-item">
-                <div class="col-lg-12 about-1">
-                    <h1>- Fasilitas Desa -</h1>
-                </div>
-                <div class="container-content">
-                    <div class="row">
-                        <div class="col-lg-4 card-container">
-                            <div class="card shadow bg-body rounded-8" style="width: 23rem;">
-                                <img src="./assets/lapangan.png" class="card-img-top">
-                                <div class="card-body">
-                                    <h2>Lapangan</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-4 card-container">
-                            <div class="card shadow bg-body rounded-8" style="width: 23rem;">
-                                <img src="./assets/masjid.png" class="card-img-top">
-                                <div class="card-body">
-                                    <h2>Masjid Jami Baitusalam</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 card-container">
-                            <div class="card shadow bg-body rounded-8" style="width: 23rem;">
-                                <img src="./assets/sungai2.png" class="card-img-top">
-                                <div class="card-body">
-                                    <h2>Sungai</h2>
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
         </div>
-
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev">
-            <span style="background-color: gray; border-radius: 40px;" class="carousel-control-prev-icon"
-                aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next">
-            <span style="background-color: gray; border-radius: 40px;" class="carousel-control-next-icon"
-                aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
 
-    <div id="carouselExampleIndicators-2" class="carousel slide perangkat-desa" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators-2" class="carousel slide perangkat-desa" data-bs-ride="carousel" >
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators-2" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -213,7 +213,7 @@
                 aria-label="Slide 2"></button>
         </div>
 
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="struktur">
 
             <div class="carousel-item active about-page-item">
                 <div class="col-lg-12 about-1">
@@ -335,9 +335,7 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
         </div>
 
 
@@ -353,7 +351,7 @@
         </button>
     </div>
 
-    <section class="container-fasilitas">
+    <section class="container-fasilitas" id="fasilitas">
         <div class="col-lg-12 about-1">
             <h1>- Fasilitas Desa -</h1>
         </div>
@@ -361,8 +359,8 @@
             <div class="row">
                 <div class="col-lg-3 card-container">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
-                        <img src="./assets/lapangan.png" class="card-img-top">
-                        <div class="card-body">
+                        <img src="./assets/lap-bol.png" class="card-img-top">
+                        <div class="card-body" style="height: 23ch">
                             <h3>Lapangan</h3>
                             <p class="card-text">Lapangan yang biasa digunakkan untuk pertandingan sepak bola</p>
                         </div>
@@ -373,7 +371,7 @@
                 <div class="col-lg-3 card-container">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/masjid.png" class="card-img-top">
-                        <div class="card-body">
+                        <div class="card-body" style="height: 23ch">
                             <h3>Masjid</h3>
                             <p class="card-text">Masjid Jami Baitusalam, merupakan Masjid terbesar di desa kajongan.</p>
                         </div>
@@ -383,9 +381,9 @@
                 <div class="col-lg-3 card-container">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/sungai2.png" class="card-img-top">
-                        <div class="card-body">
+                        <div class="card-body" style="height: 23ch">
                             <h3>Sungai</h3>
-                            <p class="card-text">Sungai kajongan merupakan salah satu sumber mata air desa kajongan</p>
+                            <p class="card-text">Sungai kajongan merupakan salah satu sumber mata air desa kajongan dan juga tempat bermain untuk anak-anak.</p>
                         </div>
                     </div>
                 </div>
@@ -393,7 +391,7 @@
                 <div class="col-lg-3 card-container">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/SD-kajongan.png" class="card-img-top">
-                        <div class="card-body">
+                        <div class="card-body" style="height: 23ch">
                             <h3>Sekolah Dasar</h3>
                             <p class="card-text">Sekolah Dasar Kajongan, merupakan satu-satunya SD di desa kajongan</p>
                         </div>
@@ -402,9 +400,9 @@
 
                 <div class="col-lg-3 card-container">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
-                        <img src="./assets/lapangan.png" class="card-img-top">
-                        <div class="card-body">
-                            <h3>Tepeq</h3>
+                        <img src="./assets/TPQ.png" class="card-img-top">
+                        <div class="card-body" style="height: 23ch">
+                            <h3>TPQ</h3>
                             <p class="card-text">Tepeq desa kajongan merupakan tempat dilakukannya pengajian.</p>
                         </div>
                     </div>
@@ -413,8 +411,8 @@
 
                 <div class="col-lg-3 card-container">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
-                        <img src="./assets/masjid.png" class="card-img-top">
-                        <div class="card-body">
+                        <img src="./assets/petilasan.png" class="card-img-top">
+                        <div class="card-body" style="height: 23ch">
                             <h3>Petilasan</h3>
                             <p class="card-text">Some quick example text to build on the card title and make up
                                 the
@@ -425,12 +423,12 @@
 
                 <div class="col-lg-3 card-container">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
-                        <img src="./assets/sungai2.png" class="card-img-top">
-                        <div class="card-body">
+                        <img src="./assets/balai-desa.png" class="card-img-top">
+                        <div class="card-body" style="height: 23ch"  style="height: 25ch">
                             <h3>Balai Desa</h3>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the
-                                bulk of the card's content.</p>
+                            <p class="card-text">Merupakan Tempat Bekerjanya Perangkat Desa dan juga tempat diadakan nya
+                                pertemuan besar di desa kajongan
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -438,7 +436,7 @@
                 <div class="col-lg-3 card-container">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/sungai2.png" class="card-img-top">
-                        <div class="card-body">
+                        <div class="card-body" style="height: 23ch">
                             <h3>Pondok Pesantren</h3>
                             <p class="card-text">Some quick example text to build on the card title and make up
                                 the
@@ -451,16 +449,25 @@
         </div>
         <div class="footer-cont">
             <div class="row" style="margin: 0%">
-                <div class="col-lg-4" style="padding: 0%; padding-left:60px;display:flex;flex-direction:column;align-items:center">
+                <div class="col-lg-12" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
+                    <img src="./assets/pekalongan.png" style="width: 60px;margin-bottom:12px" />
                     Desa Kajongan ,Kajen Pekalongan
-                    <img src="./assets/pekalongan.png" style="width: 40px;" />
                 </div>
-                <div class="col-lg-8" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
+                <div class="col-lg-12" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
                     <h6>Ikuti Kegiatan selengkapnya di sosial media kami.</h6>
-                    
+                    <div style="padding: 0%;display:flex;flex-direction:row;align-items:flex-end">
+                        <a href="">
+                            <img src="./assets/insta-2.png" style="width: 30px;margin-right:10px" />
+                        </a>
+                        <a href="">
+                            <img src="./assets/facebook-2.png" style="width: 30px;" />
+                        </a>
+                    </div>
                 </div>
+                <br>
                 <div class="col-lg-12" style="text-align: center; padding: 0%;">
-                    Desa Kajongan © 2023-2024
+                    <p style="margin: 0;margin-top:12px"><b>Pemdes Kajongan</b> © 2023-2024</p>
+                    <p>Made with Love by KKN Undip TIM II 2023</p>
                 </div>
             </div>
         </div>

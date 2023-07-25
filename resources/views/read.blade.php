@@ -51,17 +51,17 @@
                         </li>
                         <li class="nav-item">
                             <b>
-                                <a class="nav-link" href="#">Tentang</a>
+                                <a class="nav-link" href="/#tentang">Tentang</a>
                             </b>
                         </li>
                         <li class="nav-item">
                             <b>
-                                <a class="nav-link" href="#">Fasilitas</a>
+                                <a class="nav-link" href="/#fasilitas">Fasilitas</a>
                             </b>
                         </li>
                         <li class="nav-item">
                             <b>
-                                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Struktur</a>
+                                <a class="nav-link" href="/#struktur" tabindex="-1" aria-disabled="true">Struktur</a>
                             </b>
                         </li>
                         <li class="nav-item">
@@ -99,16 +99,25 @@
 
         <div class="footer-cont">
             <div class="row" style="margin: 0%">
-                <div class="col-lg-4" style="padding: 0%; padding-left:60px;display:flex;flex-direction:column;align-items:center">
+                <div class="col-lg-12" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
+                    <img src={{ asset("./assets/pekalongan.png") }} style="width: 60px;margin-bottom:12px" />
                     Desa Kajongan ,Kajen Pekalongan
-                    <img src="./assets/pekalongan.png" style="width: 40px;" />
                 </div>
-                <div class="col-lg-8" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
+                <div class="col-lg-12" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
                     <h6>Ikuti Kegiatan selengkapnya di sosial media kami.</h6>
-                    
+                    <div style="padding: 0%;display:flex;flex-direction:row;align-items:flex-end">
+                        <a href="">
+                            <img src={{ asset("./assets/insta-2.png") }} style="width: 30px;margin-right:10px" />
+                        </a>
+                        <a href="">
+                            <img src={{ asset("./assets/facebook-2.png") }} style="width: 30px;" />
+                        </a>
+                    </div>
                 </div>
+                <br>
                 <div class="col-lg-12" style="text-align: center; padding: 0%;">
-                    Desa Kajongan © 2023-2024
+                    <p style="margin: 0;margin-top:12px"><b>Pemdes Kajongan</b> © 2023-2024</p>
+                    <p>Made with Love by KKN Undip TIM II 2023</p>
                 </div>
             </div>
         </div>

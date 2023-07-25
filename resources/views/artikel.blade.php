@@ -31,7 +31,7 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
     </script>
 
-    <section class="landing-page">
+    <section class="artikel-landing-page">
         <nav class="navbar navbar-expand-lg navbar-dark me-auto nav-cont">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -51,17 +51,17 @@
                         </li>
                         <li class="nav-item">
                             <b>
-                                <a class="nav-link" href="#">Tentang</a>
+                                <a class="nav-link" href="/#tentang">Tentang</a>
                             </b>
                         </li>
                         <li class="nav-item">
                             <b>
-                                <a class="nav-link" href="#">Fasilitas</a>
+                                <a class="nav-link" href="/#fasilitas">Fasilitas</a>
                             </b>
                         </li>
                         <li class="nav-item">
                             <b>
-                                <a class="nav-link" href="#" aria-disabled="true">Struktur</a>
+                                <a class="nav-link" href="/#struktur" tabindex="-1" aria-disabled="true">Struktur</a>
                             </b>
                         </li>
                         <li class="nav-item">
@@ -73,7 +73,7 @@
                 </div>
         </nav>
 
-        <div class="home-section">
+        <div class="artikel-section">
             <div class="title-home">
                 <h1>Kumpulan Artikel</h1>
                 <h3>Desa Kajongan</h3>
@@ -81,15 +81,17 @@
         </div>
 
     </section>
+    
     <div class="artikel-cont">
+
 
         <div class="row justify-content-center">
 
             @if(count($all_article) > 0)
             @foreach($all_article as $article)
 
-                <div class="col-lg-5 artikel-item" style="padding: 0%">
-                    <div style="width: 40rem;height:240px">
+                <div class="col-lg-5 artikel-item" style="padding: 0%;margin-bottom:20px">
+                    <div style="width: 45rem;height:240px">
                         <div style="display: flex;flex-direction:row" class="row">
                             <div class="col-lg-5">  
                                 <img height="240px" width="110px" src="./assets/artikelImage/artikel-img-{{ $article['id'] }}.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
@@ -107,54 +109,40 @@
                         </div>
                     </div>
                 </div>
-
             @endforeach
             @else
-                <p>Tidak Artikel</p>
+                <p>Tidak Ada Artikel</p>
             @endif
-
-            {{-- <div class="col-lg-5 artikel-item" style="padding: 0%">
-                <div style="width: 40rem;height:220px">
-                    <div style="display: flex;flex-direction:row">
-                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <h5>Sub Title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#">Lanjut Baca..</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 artikel-item" style="padding: 0%">
-                <div style="width: 40rem;height:220px">
-                    <div style="display: flex;flex-direction:row">
-                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <h5>Sub Title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#">Lanjut Baca..</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 artikel-item" style="padding: 0%">
-                <div style="width: 40rem;height:220px">
-                    <div style="display: flex;flex-direction:row">
-                        <img height="220px" src="./assets/koveksi.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
-                        <div class="card-body">
-                          <h4 class="card-title">Card title</h4>
-                          <h5>Sub Title</h5>
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          <a href="#">Lanjut Baca..</a>
-                        </div>
-                    </div>
-                </div>
-            </div> --}}
         </div>
-
     </div>    
+    <div class="container" style="display: flex;justify-content:center;align-items:center">
+        {{ $all_article->links('pagination::bootstrap-4') }}
+    </div>
+
+    <div class="footer-cont">
+        <div class="row" style="margin: 0%">
+            <div class="col-lg-12" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
+                <img src="./assets/pekalongan.png" style="width: 60px;margin-bottom:12px" />
+                Desa Kajongan ,Kajen Pekalongan
+            </div>
+            <div class="col-lg-12" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
+                <h6>Ikuti Kegiatan selengkapnya di sosial media kami.</h6>
+                <div style="padding: 0%;display:flex;flex-direction:row;align-items:flex-end">
+                    <a href="">
+                        <img src="./assets/insta-2.png" style="width: 30px;margin-right:10px" />
+                    </a>
+                    <a href="">
+                        <img src="./assets/facebook-2.png" style="width: 30px;" />
+                    </a>
+                </div>
+            </div>
+            <br>
+            <div class="col-lg-12" style="text-align: center; padding: 0%;">
+                <p style="margin: 0;margin-top:12px"><b>Pemdes Kajongan</b> © 2023-2024</p>
+                <p>Made with Love by KKN Undip TIM II 2023</p>
+            </div>
+        </div>
+    </div>
     
     
 
