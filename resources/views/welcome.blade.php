@@ -90,9 +90,9 @@
         </div>
         <div class="container-content">
             <div class="row">
-                <div class="col-lg-4 card-container" data-bs-toggle="modal" data-bs-target="#profileModal">
+                <div class="col-lg-4 col-sm-5 card-container" data-bs-toggle="modal" data-bs-target="#profileModal">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
-                        <img src="./assets/desa-top.png" class="card-img-top">
+                        <img src="./assets/desa-top.png" class="card-img">
                         <div class="card-body">
                             <h2>Profile</h2>
                             <p class="card-text">Some quick example text to build on the card title and make up
@@ -127,9 +127,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 card-container" data-bs-toggle="modal" data-bs-target="#UMKMModal">
+                <div class="col-lg-4 card-container col-sm-5" data-bs-toggle="modal" data-bs-target="#UMKMModal">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
-                        <img src="./assets/koveksi.png" class="card-img-top">
+                        <img src="./assets/koveksi.png" class="card-img">
                         <div class="card-body"> 
                             <h2>UMKM</h2>
                             <p class="card-text">Some quick example text to build on the card title and make up
@@ -164,9 +164,9 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 card-container" data-bs-toggle="modal" data-bs-target="#LocationModal">
+                <div class="col-lg-4 card-container " data-bs-toggle="modal" data-bs-target="#LocationModal">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
-                        <img src="./assets/peta-kajongan.png" class="card-img-top">
+                        <img src="./assets/peta-kajongan.png" class="card-img">
                         <div class="card-body">
                             <h2>Lokasi</h2>
                             <p class="card-text">Some quick example text to build on the card title and make up
