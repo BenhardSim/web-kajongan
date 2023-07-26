@@ -266,6 +266,11 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.per-desa-img{
+    width: 100px;
+    height: 100px;
+}
+
 @media (max-width: 500px) {
 
     .landing-page {
@@ -312,5 +317,43 @@ body {
 
     .card-img {
         display: none;
+    }
+
+    .subyek-container {
+        width: 180px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        color: black;
+        align-items: center;
+        background-color: white;
+        padding: 10px;
+        border-radius: 20px;
+        transition: transform .2s
+    }
+
+    .subyek-container h4 {
+        font-size: 13px;
+    }
+
+    .subyek-container p{
+        font-size: 10px;
+    }
+
+    .subyek-container h6 {
+        font-size: 12px;
+    }
+
+    .per-desa-img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .card-container p{
+        font-size: 14px;
+    }
+
+    .footer-cont p{
+        font-size: 12px;
     }
 }

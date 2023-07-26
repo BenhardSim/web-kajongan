@@ -237,9 +237,9 @@
                 </div>
                 <div class="container-content-2">
                     <div class="row container">
-                        <div class="col-lg-12 perangkat-item">
+                        <div class="col-lg-12 perangkat-item col-sm-12">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/{{ $photo_kades }}" alt="" width="110px" height="110px"
+                                <img src="./assets/perangkat/{{ $photo_kades }}" alt="" class="per-desa-img"110px" height="110px"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
                                     <h4>{{ $kades_name }}</h4>
@@ -248,9 +248,9 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 perangkat-item">
+                        <div class="col-lg-3 perangkat-item col-6">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/{{ $photo_sekre }}" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_sekre }}" alt="" class="per-desa-img"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
                                     <h6>{{ $sekre_name }}
@@ -259,9 +259,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 perangkat-item">
+                        <div class="col-lg-3 perangkat-item col-6">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/{{ $photo_kaurUang }}" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kaurUang }}" alt="" class="per-desa-img"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
                                     <h6>{{ $kaurUang_name }}</h6>
@@ -269,9 +269,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 perangkat-item">
+                        <div class="col-lg-3 perangkat-item col-6">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/{{ $photo_kaurUmum }}" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kaurUmum }}" alt="" class="per-desa-img"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
                                     <h6>{{ $kaurUmum_name }}</h6>
@@ -279,9 +279,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 perangkat-item">
+                        <div class="col-lg-3 perangkat-item col-6">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/{{ $photo_kasiPemerintah }}" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kasiPemerintah }}" alt="" class="per-desa-img"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
                                     <h6>{{ $kasiPemerintah_name }}</h6>
@@ -289,9 +289,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 perangkat-item">
+                        <div class="col-lg-3 perangkat-item col-6">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/{{ $photo_kasiSejahtera }}" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kasiSejahtera }}" alt="" class="per-desa-img"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
                                     <h6>{{ $kasiSejahtera_name }}</h6>
@@ -299,9 +299,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 perangkat-item">
+                        <div class="col-lg-3 perangkat-item col-6">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/{{ $photo_kadusKemloko }}" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kadusKemloko }}" alt="" class="per-desa-img"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
                                     <h6>{{ $kadusKemloko_name }}
@@ -310,9 +310,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 perangkat-item">
+                        <div class="col-lg-3 perangkat-item col-6">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/{{ $photo_kadusKrajen }}" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kadusKrajen }}" alt="" class="per-desa-img"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
                                     <h6>{{ $kadusKrajen_name }}</h6>
@@ -320,9 +320,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 perangkat-item">
+                        <div class="col-lg-3 perangkat-item col-6">
                             <div class="subyek-container shadow">
-                                <img src="./assets/perangkat/{{ $photo_kadusGembongan }}" alt="" width="100px" height="100px"
+                                <img src="./assets/perangkat/{{ $photo_kadusGembongan }}" alt="" class="per-desa-img"
                                     style="border-radius: 200px;">
                                 <div class="subyek-info">
                                     <h6>{{ $kadusGembongan_name }}</h6>
@@ -357,7 +357,7 @@
         </div>
         <div class="container-content">
             <div class="row">
-                <div class="col-lg-3 card-container">
+                <div class="col-lg-3 card-container col-6">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/lap-bol.png" class="card-img-top">
                         <div class="card-body" style="height: 23ch">
@@ -368,7 +368,7 @@
                 </div>
 
 
-                <div class="col-lg-3 card-container">
+                <div class="col-lg-3 card-container col-6">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/masjid.png" class="card-img-top">
                         <div class="card-body" style="height: 23ch">
@@ -378,7 +378,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 card-container">
+                <div class="col-lg-3 card-container col-6">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/sungai2.png" class="card-img-top">
                         <div class="card-body" style="height: 23ch">
@@ -388,7 +388,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 card-container">
+                <div class="col-lg-3 card-container col-6">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/SD-kajongan.png" class="card-img-top">
                         <div class="card-body" style="height: 23ch">
@@ -398,7 +398,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 card-container">
+                <div class="col-lg-3 card-container col-6">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/TPQ.png" class="card-img-top">
                         <div class="card-body" style="height: 23ch">
@@ -409,7 +409,7 @@
                 </div>
 
 
-                <div class="col-lg-3 card-container">
+                <div class="col-lg-3 card-container col-6">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/petilasan.png" class="card-img-top">
                         <div class="card-body" style="height: 23ch">
@@ -421,7 +421,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 card-container">
+                <div class="col-lg-3 card-container col-6">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/balai-desa.png" class="card-img-top">
                         <div class="card-body" style="height: 23ch"  style="height: 25ch">
@@ -433,7 +433,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 card-container">
+                <div class="col-lg-3 card-container col-6">
                     <div class="card shadow bg-body rounded-8" style="width: 23rem;">
                         <img src="./assets/sungai2.png" class="card-img-top">
                         <div class="card-body" style="height: 23ch">
