@@ -219,10 +219,10 @@
                 <div class="col-lg-12 about-1">
                     <h1>Perangkat Desa</h1>
                 </div>
-                <div class="container-content">
+                <div class="container-per-1">
                     <div class="row">
                         <div class="col-lg-12 perangkat-content">
-                            <img src="./assets/perangkat/perangkat-desa.png" alt="" width="750px" style="border-radius: 20px;">
+                            <img src="./assets/perangkat/perangkat-desa.png" class="perangkat-img-1" alt="">
                         </div>
                         <div class="col-lg-12 periode">
                             <p>Perangkat Desa Kajongan Periode 2019-2025</p>

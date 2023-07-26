@@ -1,29 +1,29 @@
-body{
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.landing-page{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/sungai-kajongan.jpg');
+.landing-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/sungai-kajongan.jpg');
     height: 500px;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.artikel-landing-page{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/sungai-kajongan.jpg');
+.artikel-landing-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/sungai-kajongan.jpg');
     height: 300px;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.nav-cont{
-    padding-left: 5%;   
+.nav-cont {
+    padding-left: 5%;
     padding-right: 5%;
 }
 
-.home-section{
+.home-section {
     color: white;
     height: 100%;
     display: flex;
@@ -35,23 +35,23 @@ body{
     flex-direction: column;
 }
 
-.home-section h1{
+.home-section h1 {
     font-size: 90px;
 }
 
-.home-section button{
+.home-section button {
     padding-left: 30px;
     padding-right: 30px;
     color: white;
     border-color: white;
 }
 
-.home-section button:hover{
+.home-section button:hover {
     color: black;
     background-color: white;
 }
 
-.artikel-section{
+.artikel-section {
     color: white;
     height: 100%;
     display: flex;
@@ -63,51 +63,51 @@ body{
     flex-direction: column;
 }
 
-.artikel-section h1{
+.artikel-section h1 {
     font-size: 60px;
 }
 
-.artikel-section button{
+.artikel-section button {
     padding-left: 30px;
     padding-right: 30px;
     color: white;
     border-color: white;
 }
 
-.artikel-section button:hover{
+.artikel-section button:hover {
     color: black;
     background-color: white;
 }
 
-.about-page-item{
+.about-page-item {
     height: 800px;
 }
 
-.container-content{
+.container-content {
     margin: 60px 150px 80px 150px;
     padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.about-1 h1{
+.about-1 h1 {
     text-align: center;
     margin-top: 40px;
 }
 
-.container-content p{
+.container-content p {
     text-align: justify;
 }
 
-.about-img-1{
+.about-img-1 {
     text-align: center;
 }
 
-.content-card{
+.content-card {
     padding: 0%;
-    width: 100px;                 
+    width: 100px;
 }
 
-.card-container{
+.card-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,28 +116,28 @@ body{
     transition: transform .2s
 }
 
-.card-container:hover{
+.card-container:hover {
     transform: scale(1.03);
 }
 
-.perangkat-desa{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/sungai-kajongan.jpg');    
-    background-size:cover;
+.perangkat-desa {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/sungai-kajongan.jpg');
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.perangkat-desa h1{
+.perangkat-desa h1 {
     color: white;
 }
 
-.perangkat-content{
+.perangkat-content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.periode{
+.periode {
     color: white;
     display: flex;
     justify-content: center;
@@ -146,34 +146,34 @@ body{
     padding-top: 20px;
 }
 
-.about-2 p{
+.about-2 p {
     color: aliceblue;
 }
 
-.about-2 h1{
+.about-2 h1 {
     text-align: center;
     margin-top: 40px;
 }
 
-.about-page-item-2{
+.about-page-item-2 {
     height: 800px;
 }
 
-.container-content-2{
+.container-content-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
 
-.perangkat-item{
+.perangkat-item {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
 }
 
-.subyek-container{
+.subyek-container {
     width: 400px;
     height: 150px;
     display: flex;
@@ -186,86 +186,97 @@ body{
     transition: transform .2s
 }
 
-.subyek-container:hover{
+.subyek-container:hover {
     transform: scale(1.03);
 }
 
-.subyek-container p{
+.subyek-container p {
     margin: 0;
     padding: 0%;
 }
 
-.subyek-info{
+.subyek-info {
     display: flex;
     justify-content: center;
     flex-direction: column;
     padding: 10px;
 }
 
-.subyek-info h6{
+.subyek-info h6 {
     margin: 0;
 }
 
-.subyek-info h4{
+.subyek-info h4 {
     margin: 0%;
 }
 
-.container-fasilitas{
+.container-fasilitas {
     height: 750px;
 }
 
-#login-page{
+#login-page {
     background-color: #FAF3F0;
 }
 
-.form-cont{
+.form-cont {
     margin: 100px;
     background-color: white;
     padding: 30px;
     border-radius: 20px;
 }
 
-.footer-cont{
+.footer-cont {
     padding-top: 25px;
     padding-bottom: 20px;
     background-color: #0f0f0f;
     color: white;
 }
 
-.artikel-cont{
+.artikel-cont {
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
     height: 100%;
 }
 
-.artikel-item{
+.artikel-item {
     display: flex;
-    justify-content:center;
-    align-items:center;
-    padding:0px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
     margin: 10px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     border-radius: 8px;
 }
 
-.content-art p{
+.perangkat-img-1 {
+    width: 750px;
+    border-radius: 20px;
+}
+
+.content-art p {
     text-align: justify;
 }
 
-@media (max-width: 412px) {
+.container-per-1 {
+    margin: 20px 0 30px 0;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
-    .landing-page{
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/sungai-kajongan.jpg');
+@media (max-width: 500px) {
+
+    .landing-page {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/sungai-kajongan.jpg');
         height: 300px;
-        background-size:cover;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
-    
-    .home-section{
+
+    .home-section {
         color: white;
         height: 80%;
         display: flex;
@@ -276,22 +287,30 @@ body{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         flex-direction: column;
     }
-    
-    .home-section h1{
+
+    .perangkat-img-1 {
+        width: 300px;
+    }
+
+    .home-section h1 {
         font-size: 40px;
     }
 
-    .home-section p{
+    .home-section p {
         font-size: 10px;
     }
 
-    .container-content{
+    .container-content {
         margin: 20px 0 30px 0;
         padding: 20px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
-    .card-img{
+    .container-per-1 {
+        margin-top: 150px;
+    }
+
+    .card-img {
         display: none;
     }
 }
