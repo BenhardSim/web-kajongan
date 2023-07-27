@@ -83,14 +83,30 @@
     </section>
     
     <div class="artikel-cont">
-
-
         <div class="row justify-content-center">
 
             @if(count($all_article) > 0)
             @foreach($all_article as $article)
 
-                <div class="col-lg-5 artikel-item" style="padding: 0%;margin-bottom:20px">
+            <div class="col-lg-5 col-12 artikel-item shadow">
+                <div class="row">
+                    <div class="col-lg-4 col-5" style="padding: 12px">
+                        <img class="thumbnail" width="200px" src="./assets/artikelImage/{{ $article['thumbnail'] }}" >
+                    </div>
+                    <div class="col-lg-7 col-7" style="padding: 12px">
+                        <h4 class="card-title">{{ $article["title"] }}</h4>
+                            <p>Author : <b>{{ $article["author"] }}</b></p>
+                            <p id="content-prev" class="card-text">{{ 
+    
+                            substr(strip_tags(str_replace("\\","",str_ireplace("div","p",str_ireplace('"',' ', $article["article"])) )),0,80) 
+                            
+                            }}</p>
+                            <a href="/artikel/{{ $article['id'] }}">Lanjut Baca..</a>          
+                    </div>    
+                </div>
+            </div>
+
+                {{-- <div class="col-lg-5 artikel-item" style="padding: 0%;margin-bottom:20px">
                     <div style="width: 45rem;height:240px">
                         <div style="display: flex;flex-direction:row" class="row">
                             <div class="col-lg-5">  
@@ -108,7 +124,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             @endforeach
             @else
                 <p>Tidak Ada Artikel</p>
