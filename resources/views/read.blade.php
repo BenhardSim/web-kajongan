@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-lg-8" style="padding: 20px">
                    <h2>{{ $artikel_data["title"] }}</h2>
-                   <p>Selasa, 20 July 2023</p>
+                   <p>{{ $artikel_data["created_at"] }}</p>
                    <h6 style="font-weight: normal">Penulis : {{ $artikel_data["author"] }}</h6>
                    <img src="{{ asset("/assets/artikelImage/".$artikel_data['thumbnail']) }}" width="70%" height="" style="padding: 30px"/>
                    <div class="content-art">
@@ -106,10 +106,10 @@
                 <div class="col-lg-12" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
                     <h6>Ikuti Kegiatan selengkapnya di sosial media kami.</h6>
                     <div style="padding: 0%;display:flex;flex-direction:row;align-items:flex-end">
-                        <a href="">
+                        <a href="https://www.instagram.com/pemdes_kajongan/">
                             <img src={{ asset("./assets/insta-2.png") }} style="width: 30px;margin-right:10px" />
                         </a>
-                        <a href="">
+                        <a href="https://www.facebook.com/pemdes.kajongan.9/">
                             <img src={{ asset("./assets/facebook-2.png") }} style="width: 30px;" />
                         </a>
                     </div>

@@ -19,6 +19,12 @@
             Olah Artikel
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link {{ Request::is('help*') ? 'active' : '' }}" href="/help">
+            <span data-feather="help-circle"></span>
+            Bantuan
+          </a>
+        </li>
       </ul>
     </div>
   </nav>

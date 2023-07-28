@@ -12,7 +12,7 @@ class artikel extends Model
     public function getCreatedAtAttribute($value)
     {
         // Convert the date to the desired format (d/M/Y) using Carbon
-        return Carbon::parse($value)->format('d-M-Y');
+        return Carbon::parse($value)->format('l, j F Y');
     }
     protected $guarded = [];
 }

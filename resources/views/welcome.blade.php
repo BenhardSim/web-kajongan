@@ -95,9 +95,8 @@
                         <img src="./assets/desa-top.png" class="card-img">
                         <div class="card-body">
                             <h2>Profile</h2>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the
-                                bulk of the card's content.</p>
+                            <p class="card-text">Desa Kajongan Merupakan desa dengan penuh keindahan alam, 
+                                desa ini terletak di kecamatan kajen pada kabupaten pekalongan</p>
                         </div>
                     </div>
                 </div>
@@ -115,12 +114,14 @@
                                 <img src="./assets/desa-top.png" class="card-img-top">
                             </div>
                             <div class="col-lg-7">
-                                <p class="card-text">Some quick example text to build on the card title and make up
-                                    the
-                                    bulk of the card's content.
-                                    Some quick example text to build on the card title and make up
-                                    the
-                                    bulk of the card's content.</p>
+                                <p class="card-text">
+                                    Desa Kajongan Merupakan desa dengan penuh keindahan alam, 
+                                    desa ini terletak di kecamatan kajen pada kabupaten pekalongan
+                                    desa Kajongan sendiri memiliki banyak keunikan dan juga tradisi yang biasa dilakukan 
+                                    seperti acara malam suro dimana para penduduk desa berkeliling desa menyalakan obor
+                                    untuk menggalang dana, acara karnaval 17 agustus yang meriah, dsb. 
+                                    adapun pusat pemerintahan desa berletak pada dusun krajan yang terletak di balai desa.
+                                </p>
                             </div>
                         </div> 
                     </div>
@@ -132,9 +133,10 @@
                         <img src="./assets/koveksi.png" class="card-img">
                         <div class="card-body"> 
                             <h2>UMKM</h2>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the
-                                bulk of the card's content.</p>
+                            <p class="card-text">
+                                Desa Kajongan merupakan desa yang sudah cukup berkembang dari
+                                 segi variasi UMKM yang disediakan. 
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -152,12 +154,14 @@
                                 <img src="./assets/koveksi.png" class="card-img-top">
                             </div>
                             <div class="col-lg-7">
-                                <p class="card-text">Some quick example text to build on the card title and make up
-                                    the
-                                    bulk of the card's content.
-                                    Some quick example text to build on the card title and make up
-                                    the
-                                    bulk of the card's content.</p>
+                                <p class="card-text">
+                                    Desa Kajongan merupakan desa yang sudah cukup berkembang dari
+                                    segi variasi UMKM yang disediakan. Desa Kajongan memiliki industri konveksi yang kuat dimana
+                                    sebagian besar pemuda desa kajongan bekerja di industri ini. Selain industri Konveksi Desa
+                                    Kajongan juga memiliki beberapa industri lain nya seperti industri buah kelapa, UMKM penjualan jasa makanan
+                                    dan juga warung, UMKM pembuatan susu kedelai, dan juga jasa pembuatan bungkus makanan menggunakan bambu. 
+                                    desa Kajongan juga mulai melakukan transformasi UMKM yang dimiliki untuk masuk ke ranah digital untuk memperluas
+                                    pangsa pasar dari UMKM yang dimiliki.</p>
                             </div>
                         </div> 
                     </div>
@@ -169,9 +173,8 @@
                         <img src="./assets/peta-kajongan.png" class="card-img">
                         <div class="card-body">
                             <h2>Lokasi</h2>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the
-                                bulk of the card's content.</p>
+                            <p class="card-text">desa Kajongan terletak di Kecamatan Kajen kabupaten pekalongan provinsi jawa tengah, 
+                                yang secara geografis berada di bagian utara Pulau Jawa</p>
                         </div>
                     </div>
                 </div>
@@ -189,12 +192,14 @@
                                 <img src="./assets/peta-kajongan.png" class="card-img-top">
                             </div>
                             <div class="col-lg-7">
-                                <p class="card-text">Some quick example text to build on the card title and make up
-                                    the
-                                    bulk of the card's content.
-                                    Some quick example text to build on the card title and make up
-                                    the
-                                    bulk of the card's content.</p>
+                                <p class="card-text">
+                                    desa Kajongan terletak di Kecamatan Kajen kabupaten pekalongan provinsi jawa tengah, 
+                                    yang secara geografis berada di bagian utara Pulau Jawa dengan Koordinat 7 07'35.9"s LS
+                                    dan 109 37'51.9"E BT. Desa ini terletak di dataran rendah dan terletak sekitar 10 kilometer
+                                    di sebelah timur kota pekalongan yang dikelilingi oleh beberapa desa lainnya. seperti Desa 
+                                    Sinangoh Prendeng di sebelah timur, Desa Pringsurat di sebelah timur, Desa Brengkolan di sebelah seletan, dan Desa  Pekiringan Ageng 
+                                    di sebelah barat. 
+                                </p>
                             </div>
                         </div> 
                     </div>
@@ -456,10 +461,10 @@
                 <div class="col-lg-12" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
                     <h6>Ikuti Kegiatan selengkapnya di sosial media kami.</h6>
                     <div style="padding: 0%;display:flex;flex-direction:row;align-items:flex-end">
-                        <a href="">
+                        <a href="https://www.instagram.com/pemdes_kajongan/">
                             <img src="./assets/insta-2.png" style="width: 30px;margin-right:10px" />
                         </a>
-                        <a href="">
+                        <a href="https://www.facebook.com/pemdes.kajongan.9/">
                             <img src="./assets/facebook-2.png" style="width: 30px;" />
                         </a>
                     </div>

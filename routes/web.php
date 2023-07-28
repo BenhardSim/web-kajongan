@@ -37,3 +37,7 @@ Route::get("/addartikel",[ArtikelSettings::class, 'addArtikel'])->middleware('au
 Route::get("/olahartikel",[ArtikelSettings::class, 'olahArtikel'])->middleware('auth');
 Route::get("/showEditArt/{id}",[ArtikelSettings::class, 'showEditArt'])->middleware('auth');
 Route::put("/editArtikel/{id}",[ArtikelSettings::class, 'editArtikel'])->middleware('auth');
+
+Route::get("/help",function(){
+    return view("help");
+})->middleware('auth');

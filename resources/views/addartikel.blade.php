@@ -67,6 +67,11 @@
                 </div>
 
             </div>
+            <br>
+            <br>
+            <hr class="hr" />
+            <p style="margin: 0;margin-top:12px"><b>Pemdes Kajongan</b> © 2023-2024</p>
+            <p>Made with Love by KKN Undip TIM II 2023</p>
         </main>
         
     </div>

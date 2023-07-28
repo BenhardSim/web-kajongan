@@ -105,26 +105,6 @@
                     </div>    
                 </div>
             </div>
-
-                {{-- <div class="col-lg-5 artikel-item" style="padding: 0%;margin-bottom:20px">
-                    <div style="width: 45rem;height:240px">
-                        <div style="display: flex;flex-direction:row" class="row">
-                            <div class="col-lg-5">  
-                                <img height="240px" width="110px" src="./assets/artikelImage/artikel-img-{{ $article['id'] }}.png" class="card-img-bottom" alt="/assets/konveksi.png" style="border-radius: 8px">
-                            </div>
-                            <div class="card-body col-lg-7">
-                                <h4 class="card-title">{{ $article["title"] }}</h4>
-                                <p>By : {{ $article["author"] }}</p>
-                                <p id="content-prev" class="card-text">{{ 
-
-                                substr(strip_tags(str_replace("\\","",str_ireplace("div","p",str_ireplace('"',' ', $article["article"])) )),0,80) 
-                                
-                                }}</p>
-                                <a href="/artikel/{{ $article['id'] }}">Lanjut Baca..</a>
-                            </div>
-                        </div>
-                    </div>
-                </div> --}}
             @endforeach
             @else
                 <p>Tidak Ada Artikel</p>
@@ -144,10 +124,10 @@
             <div class="col-lg-12" style="padding: 0%;display:flex;flex-direction:column;align-items:center">
                 <h6>Ikuti Kegiatan selengkapnya di sosial media kami.</h6>
                 <div style="padding: 0%;display:flex;flex-direction:row;align-items:flex-end">
-                    <a href="">
+                    <a href="https://www.instagram.com/pemdes_kajongan/">
                         <img src="./assets/insta-2.png" style="width: 30px;margin-right:10px" />
                     </a>
-                    <a href="">
+                    <a href="https://www.facebook.com/pemdes.kajongan.9/">
                         <img src="./assets/facebook-2.png" style="width: 30px;" />
                     </a>
                 </div>
