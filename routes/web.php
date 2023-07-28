@@ -28,7 +28,12 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('aut
 Route::post('/perangkat-data/{pangkat}', [PerangkatController::class, 'postPerangkat'])->middleware('auth');
 Route::get('/artikel', [ArtikelController::class, 'index']);
 Route::get('/artikel/{id}', [ArtikelController::class, 'readArticle']);
-Route::get("/addartikel",[ArtikelSettings::class, 'addArtikel'])->middleware('auth');
-Route::post("/addartikels",[ArtikelSettings::class, 'postArticle'])->middleware('auth');
-Route::get("/olahartikel",[ArtikelSettings::class, 'olahArtikel'])->middleware('auth');
 Route::post("/logout",[LoginController::class, 'logout'])->middleware('auth');
+
+// CRUD ARTIKEL
+Route::post("/deleteArtikel/{id}",[ArtikelSettings::class, 'deleteArticle'])->middleware('auth');
+Route::post("/addartikels",[ArtikelSettings::class, 'postArticle'])->middleware('auth');
+Route::get("/addartikel",[ArtikelSettings::class, 'addArtikel'])->middleware('auth');
+Route::get("/olahartikel",[ArtikelSettings::class, 'olahArtikel'])->middleware('auth');
+Route::get("/showEditArt/{id}",[ArtikelSettings::class, 'showEditArt'])->middleware('auth');
+Route::put("/editArtikel/{id}",[ArtikelSettings::class, 'editArtikel'])->middleware('auth');

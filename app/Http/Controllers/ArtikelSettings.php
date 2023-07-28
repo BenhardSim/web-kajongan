@@ -49,4 +49,30 @@ class ArtikelSettings extends Controller
             "allData" => $allData
         ]);
     }
+
+    public function deleteArticle($id){
+        artikel::where('id', $id)->delete();
+        alert()->success('Berhasil Dihapus','Artikel Berhasil dihapus');
+        return back();
+    }
+
+    public function showEditArt($id){
+        $all_artikel = artikel::where('id',$id)->first();
+        return view("editArtikel",[
+            "all_artikel" => $all_artikel
+        ]);
+    }
+
+    public function editArtikel(Request $request,$id){
+        // return dd($request->all());
+        $artikel = artikel::where('id',$id)->first();
+        $input_data = $request->all();
+        $artikel["author"] = $input_data["author"];
+        $artikel["title"] = $input_data["title"];
+        $artikel["article"] = $input_data["content"];
+
+        $artikel->save();
+        alert()->success('Berhasil diedit','Artikel Berhasil diedit');
+        return back();
+    }
 }

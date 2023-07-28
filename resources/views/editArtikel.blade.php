@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.84.0">
     <title>Dashboard web desa Kajongan</title>
-    
+    @trixassets
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
 
     
 
-    <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS --> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     
@@ -29,7 +29,6 @@
     <div class="navbar-nav">
         <div class="nav-item text-nowrap">
             <form action="/logout" method="POST">
-                @include('sweetalert::alert')
                 @csrf
                 <button type="submit"  class="nav-link px-3 btn btn-danger">Log out</button>
             </form>
@@ -43,42 +42,35 @@
 
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
             <div class="row mt-3">
-                <h4>List Artikel Website</h4>
-                <div class="col-lg-10 mt-2">
-                    <table class="table table-hover">
-                        <thead>
-                          <tr>
-                            <th scope="col">No</th>
-                            <th scope="col">Judul</th>
-                            <th scope="col">Penulis</th>
-                            <th scope="col">Tanggal</th>
-                            <th scope="col">Aksi</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                            @foreach($allData as $key => $artikel)
-                          <tr>
-                            <th scope="row">{{ $key + 1 }}</th>
-                            <td>{{ $artikel["title"] }}</td>
-                            <td>{{ $artikel["author"] }}</td>
-                            <td>{{ $artikel["created_at"] }}</td>
-                            <td>
-                                <div style="display: flex;flex-direction:row">
-                                    <a href="/showEditArt/{{ $artikel['id'] }}" type="button" class="btn btn-warning">Edit</a>
-                                    <form action="/deleteArtikel/{{ $artikel['id'] }}" method="POST">
-                                        @csrf
-                                        <button type="submit" class="btn btn-danger">Delete</button>
-                                    </form>
-                                </div>
-                            </td>
-                          </tr>
-                          @endforeach
-                        </tbody>
-                      </table>
-                      {{ $allData->links('pagination::bootstrap-4') }}
+                <div class="col-lg-10">
+                    <h4>Edit artikel <b><u>{{ $all_artikel['title'] }}</u></b></h4>
+                    <form action="/editArtikel/{{ $all_artikel['id'] }}" method="POST" enctype="multipart/form-data">
+                        @include('sweetalert::alert')
+                        @csrf
+                        @method('PUT')
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Judul Artikel</label>
+                              <input value="{{ $all_artikel['title'] }}" name="title" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Masukkan Judul">
+                              <small id="emailHelp" class="form-text text-muted">Masukkan Judul Artikel</small>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Penulis Artikel</label>
+                              <input value="{{ $all_artikel['author'] }}" name="author" type="text" class="form-control" id="exampleInputPassword1" placeholder="Masukkan penulis">
+                            </div>
+                            <br>
+                            <input id="x" type="hidden" name="content" value="{!! str_replace("\\","",str_ireplace("div","p",str_ireplace('"',' ', $all_artikel["article"])) ) !!}">
+                            <trix-editor name="article-trixFields" input="x"></trix-editor>
+                            <br>
+                            {{-- <label for="exampleInputPassword1">Masukkan Photo Thumbnail</label>
+                            <input class="form-control" type="file" id="formFile" name="thumbnail">
+                            <br> --}}
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
+
             </div>
         </main>
+        
     </div>
 
     
