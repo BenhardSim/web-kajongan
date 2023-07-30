@@ -103,3 +103,12 @@ body {
   margin: 20px;
   padding: 20px;
 }
+
+.guide-book{
+  background-color: white;
+  border-radius: 9px;
+  padding: 15px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
+}

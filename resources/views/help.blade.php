@@ -42,7 +42,7 @@
 
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
             <div class="row mt-3">
-                <div class="col-lg-10">
+                <div class="col-lg-7">
                     <h2>- Halaman Bantuan -</h2>
                     <br>
                     <h5>Mengganti Perangkat Desa</h5>
@@ -79,14 +79,26 @@
                     </p>
 
                     <h5>Kontak Developer</h5>
-                    <p>
-                        WhatsApp : <b>+62 821 3932 2043</b>
-                        <br>
-                        E-mail : <b>benhard.simanullang.bs@gmail.com</b>
-                        <br>
-                        Source Code : <a href="https://github.com/BenhardSim/web-kajongan">BenhardSim/web-kajongan</a>
-                    </p>
+                    <div style="display: flex;flex-direction:row;align-items:center">
+                        <img src="./assets/profile.png" alt="" width="80px" style="border-radius: 200px;margin-right:14px;r">
+                        <p>
+                            WhatsApp : <b>+62 821 3932 2043</b>
+                            <br>
+                            E-mail : <b>benhard.simanullang.bs@gmail.com</b>
+                            <br>
+                            Source Code : <a href="https://github.com/BenhardSim/web-kajongan">BenhardSim/web-kajongan</a>
+                        </p>
+                    </div>
 
+                </div>
+                <br><br>
+                <div class="col-lg-3" >
+                    <div class="guide-book shadow">
+                        <h5>Guide Book</h5>
+                        <p>scan QR code di bawah ini untuk dapat mengkases guidebook penggunaan web</p>
+                        <img src="./assets/guide-book.png" alt="" width="250px">
+                        <br>
+                    </div>
                 </div>
             </div>
             <hr class="hr" />
