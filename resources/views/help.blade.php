@@ -93,7 +93,7 @@
                     <div class="guide-book shadow">
                         <h5>Guide Book</h5>
                         <p>scan QR code di bawah ini untuk dapat mengkases guidebook penggunaan web</p>
-                        <img src="./assets/guide-book.png" alt="" width="250px">
+                        <img src="./assets/guide-book.png" alt="" width="100%">
                         <br>
                     </div>
                 </div>

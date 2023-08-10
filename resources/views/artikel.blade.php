@@ -91,16 +91,16 @@
             <div class="col-lg-5 col-12 artikel-item shadow">
                 <div class="row">
                     <div class="col-lg-4 col-5" style="padding: 12px">
-                        <img class="thumbnail" width="200px" src="./assets/artikelImage/{{ $article['thumbnail'] }}" >
+                        <img class="thumbnail" style="object-fit: cover;" height="220px" width="200px" src="./assets/artikelImage/{{ $article['thumbnail'] }}" >
                     </div>
-                    <div class="col-lg-7 col-7" style="padding: 12px">
-                        <h4 class="card-title">{{ $article["title"] }}</h4>
+                    <div class="col-lg-7 col-7" style="padding: 12px;padding-left:20px">
+                            <h4 class="card-title">{{ substr($article["title"],0,50) }}..</h4>
                             <p>Author : <b>{{ $article["author"] }}</b></p>
                             <p id="content-prev" class="card-text">{{ 
     
                             substr(strip_tags(str_replace("\\","",str_ireplace("div","p",str_ireplace('"',' ', $article["article"])) )),0,80) 
                             
-                            }}</p>
+                            }}...</p>
                             <a href="/artikel/{{ $article['id'] }}">Lanjut Baca..</a>          
                     </div>    
                 </div>
